@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Code Crafters 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#schedule">Schedule</a>
+    <a href="#home">Home</a>
+    <a href="#speakers">Speakers</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="layout">
+
+    <!-- LEFT : SCHEDULE -->
+    <section class="card side" id="schedule">
+      <h1>Schedule</h1>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">Web Development</h3>
+        <p class="desc">Modern frontend and backend practices including responsive design, APIs, and frameworks.</p>
+      </div>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">AI / ML</h3>
+        <p class="desc">Introduction to machine learning models, real-world use cases, and AI workflows.</p>
+      </div>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">Cyber Security</h3>
+        <p class="desc">Fundamentals of securing applications, threat detection, and ethical hacking basics.</p>
+      </div>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">Cloud Computing</h3>
+        <p class="desc">Understanding cloud platforms, deployment strategies, and scalable architectures.</p>
+      </div>
+    </section>
+
+    <!-- CENTER : HOME + REGISTER -->
+    <section class="card center" id="home">
+      <h1>Code Crafters 2026</h1>
+      <p class="tagline">Innovation, speed, and creativity</p>
+
+      <h2>Register</h2>
+      <form action="task 1.html">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- RIGHT : SPEAKERS -->
+    <section class="card side" id="speakers">
+      <h1>Speakers</h1>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">Web Expert</h3>
+        <p class="desc">Specialist in frontend frameworks, UI/UX principles, and scalable web applications.</p>
+      </div>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">AI Researcher</h3>
+        <p class="desc">Works on applied artificial intelligence and data-driven decision systems.</p>
+      </div>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">Security Analyst</h3>
+        <p class="desc">Expert in cyber defense strategies, penetration testing, and secure system design.</p>
+      </div>
+
+      <div class="item">
+        <h3 onclick="toggleDesc(this)">Cloud Architect</h3>
+        <p class="desc">Designs cloud-native systems with high availability and performance optimization.</p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Code Crafters. All rights reserved.
+</footer>
+
+<script>
+function toggleDesc(heading) {
+  const desc = heading.nextElementSibling;
+  desc.style.display = desc.style.display === "block" ? "none" : "block";
+}
+</script>
+
+</body>
+</html>

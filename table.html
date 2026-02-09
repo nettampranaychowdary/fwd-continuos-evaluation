@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Shopping Details</title>
+    </head>
+    <body>
+        <details close>
+            <summary> Click to see shopping details </summary>
+        <table border="10" cellspacing="1" cellpadding="5" width="100%" height="200px" align="center" bgcolor="blue" style="color:rgb(128, 0, 0)">
+        <caption>Shopping</caption>
+            <tr>
+    <th>SERIAL NUMBER</th>
+    <th>ITEM NAME</th>
+    <th >price per one item</th>
+    <th>QUANTITY</th>
+    <th>total price</th>
+</tr>
+<tr>
+    <td>1</td>
+    <td>slik saree</td>
+    <td>2000</td>
+    <td>4</td>
+    <td>8000</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>cotton shirt</td>
+    <td>600</td>
+    <td>2</td>
+    <td>1200</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>jeans pant</td>
+    <td>1250</td>
+    <td>3</td>
+    <td>3750</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>running shoes</td>
+    <td>1500</td>
+    <td>1</td>
+    <td>1500</td>
+</tr>
+        </table>
+        <br>
+        <img src="https://edube.org/uploads/media/default/0001/03/mountain_landscape.jpg" alt="Mountain landscape" width="340" height="250" border="3" hspace="10" vspace="10" align="left">
+    <br><br>
+        <img src="result.PNG"
+     alt="Dream pose" 
+     width="100"
+     height="100"
+        border="5" hspace="10" vspace="10" align="right">
+        <br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><a href="https://www.youtube.com/watch?v=Mm1Zp80gj1Q" target="_blank">
+    Watch the video
+</a><br>
+<a href="mailto:nettamshobharani1988@gmail.com">
+    Send Email
+</a><br>
+<a href="tel:+919121037931">
+    Make a Call
+</a><br>
+<a href="file:///C:/Users/netta/Music/fundamental%20web%20design/f1.docx" download="f1.docx">
+    Download file
+</a><br>
+<a href="file:///C:/Users/netta/Music/fundamental%20web%20design/f1.docx">
+    Open document
+</a><br>
+<p>
+    Go to 
+    <a href="file:///C:/Users/netta/Music/fundamental%20web%20design/f1.docx"
+       title="Visit our document">
+        our practice
+    </a>
+    case studies
+</p>
+<a href="file:///C:/Users/netta/Music/fundamental%20web%20design/f1.docx">
+    <img src="f2.png" alt="Document link" width="120">
+</a>
+<h2>Submit the form</h2>
+<form action="submit.php" method="POST">
+    <label for="Item name">Item Name:</label><br>
+    <input type="text" id="itemname" name="itemname" required>
+    <br><br>
+    <label for="Price per one item">Price per one item:</label><br>
+    <input type="text" id="price" name="price" required>
+    <br><br>
+    <label for="Quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" required>    
+    <br><br>
+    <label>type:</label><br>
+    <input type="radio" id="slik" name="type" value="slik">
+    <label for="slik">Slik</label><br>
+    <input type="radio" id="cotton" name="type" value="cotton">
+    <label for="cotton">Cotton</label>  <br>
+    <input type="radio" id="Banaras" name="type" value="Banaras">
+    <label for="Banaras">Banaras</label>
+    <br><br>
+     <label>Interests:</label><br>
+        <input type="checkbox" id="party wear" name="interests" value="party wear">
+        <label for="party wear">Party wear</label><br>
+        <input type="checkbox" id="casual" name="interests" value="casual">
+        <label for="casual">Casual</label>
+        <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear Form">
+    <br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+    <label for="shopping date">Shopping Date:</label><br>
+    <select id="shopping date" name="shopping date"><br><br>
+        <option value="2024-01-01">2024-01-01</option>
+        <option value="2024-02-01">2024-02-01</option>
+        <option value="2024-03-01">2024-03-01</option>
+    </select><br>
+    <button type="button" onclick="alert('Form submitted!')">Click Me</button>
+    <fieldset>
+        <legend>Shopping Details</legend>
+        <label for="budget">Budget:</label><br>
+        <input type="text" id="budget" name="budget">
+        <br><br>
+        <label for="places">Places:</label><br>
+        <input type="text" id="places" name="places">
+        <br><br>
+        <label for="time">Time:</label><br>
+        <input type="text" id="time" name="time">
+        <br><br>
+    </fieldset>
+    <label for="upload receipt">Upload Receipt:</label>
+    <input type="file" id="upload receipt" name="upload receipt" value="South india mall">
+    <br><br>
+    <label for="shopping time">Shopping Time:</label>
+    <input type="time" id="shopping time" name="shopping time" place holder="10:00 AM">
+    <br><br>
+    <label for="first type">First Type:</label><br>
+    <input type="text" id="first type" name="first type" value="Silk Saree"disabled>
+    <br><br>
+    <label for="first type">First Type:</label><br>
+    <input type="text" id="first type" name="first type" value="cotton"disabled>
+    <br><br>
+    <label for="first type">First Type:</label><br>
+    <input type="text" id="first type" name="first type" value="Banaras"disabled>
+    <br><br>
+    <label for="total amount">Total Amount:</label><br>
+    <input type="text" id="total amount" name="total amount" value="14450" readonly>
+    <br><br>
+    <label for="Password">Password:</label><br>
+    <input type="password" id="password" name="password" min="12" max="20" required>
+    <br><br>
+    <label for="email address">Email Address:</label><br>
+    <input type="email" id="email address" name="email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <br><br>   
+    <label for="website">Website:</label><br>
+    <input type="url" id="website" name="website" autocomplete="off">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear Form">
+    <br><br>
+    </form>
+    </details>
+    </body>
+</html>
